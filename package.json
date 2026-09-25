@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-mgnify",
+  "version": "0.1.0",
+  "description": "MGnify — EMBL-EBI's metagenomics resource: public microbiome studies, the biome vocabulary they are classified under, and the ~57,000 MAGs and isolate genomes in its species-level genome catalogues, with completeness, contamination and GTDB taxonomy for each.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-mgnify": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "mgnify"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-mgnify.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-be2c954c929ac750e352a387a64249c350f1a1425379a34139d0de5e0016c2d4",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+  }
+}
