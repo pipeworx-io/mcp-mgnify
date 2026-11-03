@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-mgnify",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "MGnify — EMBL-EBI's metagenomics resource: public microbiome studies, the biome vocabulary they are classified under, and the ~57,000 MAGs and isolate genomes in its species-level genome catalogues, with completeness, contamination and GTDB taxonomy for each.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "mgnify",
     "gatewaySlug": "mgnify",
-    "sourceHash": "v1-001f2ee52318081263f27aee500d7d0e6c3994e8153dc3ba977b5eb758dae900",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-32cc2328d46a33fad6a54569ee22d5d81b0140928bf9c460816539d303305228",
+    "sourceCommit": "56cf550e46fed96c0101a3877ccaf8357eecf016"
   }
 }
